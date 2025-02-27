@@ -354,3 +354,16 @@ input[type="submit"] {
 	}
 }
 
+/*Code CSS optimisation*/
+
+#about img{
+	object-fit: cover;
+	height: 360px;
+	width: 360px;
+}
+
+.picture img{
+	object-fit: cover;
+	height: 360px;
+	width: 360px;
+}
