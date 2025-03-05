@@ -6059,6 +6059,12 @@ textarea.form-control-lg {
   opacity: 0.9;
   transition: opacity 0.15s ease;
 }
+
+/*Contour du focus pour les boutons suivant et précédent*/
+.carousel-control-prev-icon:focus, .carousel-control-next-icon:focus{
+  outline: 10px solid black;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
 .carousel-control-next {
